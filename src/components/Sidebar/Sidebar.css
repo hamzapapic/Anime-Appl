@@ -1,0 +1,68 @@
+.sidebar {
+  box-sizing: border-box;
+  background-color: #333333;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+.menu {
+  margin-left: 1rem;
+  font-size: 2rem;
+  background: none;
+}
+.nav {
+  background-color: #333333;
+  margin-top: 4.5rem;
+  width: 250px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  /* left: -100%; */
+  transition: 1000ms;
+}
+.nav active {
+  left: 0;
+  transform: 400ms;
+}
+.side-text {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding: 8px 0px 8px 8px;
+  list-style: none;
+  height: 60px;
+}
+.side-text a {
+  color: pink;
+  text-decoration: none;
+  font-size: 2rem;
+  width: 95%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: 0 16px;
+  border-radius: 4px;
+}
+.side-text a:hover {
+  background: -webkit-linear-gradient(#3f0071, #fb2576);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.site-items {
+  width: 100%;
+}
+.side-toggle {
+  color: pink;
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+span {
+  margin-left: 2rem;
+}
