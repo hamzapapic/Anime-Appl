@@ -1,0 +1,20 @@
+.navbar {
+  height: 10vh;
+  background-color: #333333;
+}
+.logo {
+  height: 7vh;
+}
+
+.flexy {
+  display: flex;
+  align-items: center;
+}
+
+.logoname {
+  margin-left: 10px;
+  font-size: 30px;
+  background: -webkit-linear-gradient(#3f0071, #fb2576);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
