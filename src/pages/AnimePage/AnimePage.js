@@ -19,7 +19,7 @@ export default function AnimePage() {
           return (
             <AnimeCard
               title={anime.attributes.titles[language]}
-              thumb={anime.attributes.posterImage.medium}
+              thumb={anime.attributes.posterImage.small}
               avgrating={anime.attributes.averageRating}
             />
             //
