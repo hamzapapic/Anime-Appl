@@ -24,7 +24,7 @@ export const SidebarData = [
     className: "side-text",
   },
   {
-    title: "About.us",
+    title: "About us",
     path: "/",
     icon: <GiTwoShadows />,
     className: "side-text",
