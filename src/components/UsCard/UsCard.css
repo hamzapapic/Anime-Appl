@@ -1,0 +1,53 @@
+.kartica{
+    margin-top: 50px;
+    width: 330px;
+    height: 420px;
+    /* margin-left: 50px; */
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    transition: transform 0.3 ease-in-out;
+    box-shadow: 2px 2px 6px rgba(255, 38, 168, 0.200),  -2px -2px 6px rgba(255, 38, 168, 0.200);
+}
+
+.kartica:hover{
+    transform:scale(1.03);
+    box-shadow: 2px 2px 6px rgba(255, 38, 168, 0.44),  -2px -2px 6px rgba(255, 38, 168, 0.44);
+}
+
+.img{
+    margin-top: 25px;
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    /* position: absolute; */
+}
+
+p{
+    text-align: center;
+}
+h3{
+    color: #ffffff66;
+}
+
+
+.firstpart{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+}
+
+.secondpart{
+    margin-top: 25px;
+    border-top: 2px solid #ff4a8c51;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-direction: column;
+}
