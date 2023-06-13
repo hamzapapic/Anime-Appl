@@ -8,15 +8,16 @@ import { SidebarData } from "./SidebarData";
 export default function Sidebar() {
   const [sidebar, setSidebar] = useState(false);
   const sidebarOn = () => setSidebar(!sidebar);
+  console.log(sidebar);
   return (
     <>
       <div className="sidebar">
         <a href="#" className="menu">
-          <GiImbricatedArrows onClick={sidebarOn} />
+          <GiImbricatedArrows style={{ color: "pink" }} onClick={sidebarOn} />
         </a>
       </div>
-      <nav className={sidebar ? "nav active" : "nav"}>
-        <ul className="side-items">
+      <nav className={sidebar ? "nav-active" : "nav"}>
+        <ul className="side-items" onClick={sidebarOn}>
           <li className="side-toggle">
             <a href="#" className="menu">
               <GiCrossedAirFlows style={{ color: "pink" }} />
