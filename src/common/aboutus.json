@@ -1,0 +1,34 @@
+[
+    {
+    "id":1,
+    "imageURL":"https://avatars.githubusercontent.com/u/82147937?v=4",
+    "fullName" : "Hamza Papic",
+    "location" : "NOVI PAZAR, SERBIJA",
+    "description" : "Hamza is pupil and soon will be a junior Web developer",
+    "goToRep" : "https://github.com/hamzapapic?tab=repositories"
+    },
+    {
+    "id":2,
+    "imageURL":"https://avatars.githubusercontent.com/u/111905339?v=4",
+    "fullName" : "Bakir Ujkanovic",
+    "location" : "NOVI PAZAR, SERBIJA",
+    "description" : "Bakir is pupil and soon will be a junior Web developer",
+    "goToRep" : "https://github.com/UBaksa?tab=repositories"
+    },
+    {
+    "id":3,
+    "imageURL":"https://avatars.githubusercontent.com/u/115462133?v=4",
+    "fullName" : "Hatidza Mahmutovic",
+    "location" : "NOVI PAZAR, SERBIJA",
+    "description" : "Hatidza is pupil and soon will be a junior Web developer",
+    "goToRep" : "https://github.com/HatidzaM?tab=repositories"
+    },
+    {
+    "id":4,
+    "imageURL":"https://avatars.githubusercontent.com/u/86130682?v=4",
+    "fullName" : "Eldin Hasanovic",
+    "location" : "NOVI PAZAR, SERBIJA",
+    "description" : "Eldin is pupil and soon will be a junior Web developer",
+    "goToRep" : "https://github.com/eldinhasanovic?tab=repositories"
+    }
+]
