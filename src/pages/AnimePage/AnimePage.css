@@ -1,5 +1,5 @@
 .animes {
-  padding-left: 5rem;
+  padding-left: 3rem;
   width: 100%;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
