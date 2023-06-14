@@ -1,5 +1,4 @@
 .sidebar {
-  box-sizing: border-box;
   background-color: #333333;
   height: 50px;
   display: flex;
@@ -10,35 +9,39 @@
   margin-left: 1rem;
   font-size: 2rem;
   background: none;
+  /* display: none; */
+}
+.menu a {
 }
 .nav {
   background-color: #333333;
   margin-top: 4.5rem;
   width: 250px;
-  height: 100%;
+  height: 100vh;
   display: flex;
   justify-content: center;
   position: fixed;
   top: 0;
   /* left: -100%; */
-  transition: 1000ms;
+  transition: 450ms;
 }
-.nav active {
+.nav-active {
   left: 0;
-  transform: 400ms;
+  transform: 350ms;
 }
 .side-text {
+  font-size: 2rem;
   display: flex;
   justify-content: start;
   align-items: center;
-  padding: 8px 0px 8px 8px;
+  padding: 8px 0px 8px 16px;
   list-style: none;
   height: 60px;
 }
 .side-text a {
   color: pink;
   text-decoration: none;
-  font-size: 2rem;
+  font-size: 18px;
   width: 95%;
   height: 100%;
   display: flex;
@@ -51,7 +54,7 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.site-items {
+.side-items {
   width: 100%;
 }
 .side-toggle {
@@ -63,6 +66,11 @@
   align-items: center;
 }
 
+.nab span {
+  display: none;
+}
+
 span {
-  margin-left: 2rem;
+  font-size: 1.5rem;
+  margin-left: 16px;
 }

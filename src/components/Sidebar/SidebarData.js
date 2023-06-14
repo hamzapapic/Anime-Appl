@@ -7,25 +7,25 @@ import { GiTwoShadows } from "react-icons/gi";
 export const SidebarData = [
   {
     title: "Manga",
-    path: "/",
+    path: "/manga",
     icon: <GiBookAura />,
     className: "side-text",
   },
   {
     title: "Anime",
-    path: "/",
+    path: "/animepage",
     icon: <GiLaptop />,
     className: "side-text",
   },
   {
     title: "Favorites",
-    path: "/",
+    path: "/favorites",
     icon: <GiHeartburn />,
     className: "side-text",
   },
   {
-    title: "About.us",
-    path: "/",
+    title: "About us",
+    path: "/aboutus",
     icon: <GiTwoShadows />,
     className: "side-text",
   },
