@@ -33,3 +33,6 @@
   border: none;
   background-color: green;
 }
+.searchbtn:hover {
+  cursor: pointer;
+}

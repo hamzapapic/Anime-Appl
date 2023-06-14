@@ -1,7 +1,39 @@
 import React from "react";
 import "./Homepage.css";
+import AnimeCard from "../../components/AnimeCard/AnimeCard";
 
 export default function Homepage() {
+  async function search() {
+    let data;
+    let res;
+    var naziv = document.getElementById("search");
+    if (naziv.length !== 0) {
+      let results = await fetch(
+        `https://kitsu.io/api/edge/anime?filter[text]=${naziv}&page[limit]=20&page[offset]=0`
+      )
+        .then((res) => res.json())
+        .then((data) => console.log(data.data));
+
+      // Moram da provalim kako da napravim ovo
+
+      //   console.log(lista);
+      //   document.innerHTML(
+      //     <div className="animes">
+      //       {data.map((anime) => {
+      //         const language = Object.keys(anime.attributes.titles)[0];
+      //         return (
+      //           <AnimeCard
+      //             title={anime.attributes.titles[language]}
+      //             thumb={anime.attributes.posterImage.small}
+      //             avgrating={anime.attributes.averageRating}
+      //           />
+      //           //
+      //         );
+      //       })}
+      //     </div>
+      //   );
+    }
+  }
   return (
     <div className="HomePage">
       <div className="home p30">
@@ -17,8 +49,15 @@ export default function Homepage() {
             type="text"
             placeholder="Search anime..."
             className="homesearch"
+            id="search"
           />
-          <button className="searchbtn"></button>
+          <button
+            id="search"
+            onClick={() => {
+              search();
+            }}
+            className="searchbtn"
+          ></button>
         </div>
       </div>
     </div>
