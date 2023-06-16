@@ -11,12 +11,10 @@ function App() {
   return (
     <div className="App">
       <Navbar />
-      {/* <div className="sidebar">
-        <Sidebar />
-      </div> */}
+      <div className="sidebar">{/* <Sidebar /> */}</div>
       <Routes>
         <Route path="/" element={<Homepage></Homepage>}></Route>
-        <Route path="/home" element={<AnimePage></AnimePage>}></Route>
+        <Route path="/animepage" element={<AnimePage></AnimePage>}></Route>
       </Routes>
       <Footer />
     </div>

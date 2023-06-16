@@ -13,6 +13,7 @@ export default function Homepage() {
       )
         .then((res) => res.json())
         .then((data) => console.log(data.data));
+      console.log(results);
 
       // Moram da provalim kako da napravim ovo
 
