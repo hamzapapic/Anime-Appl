@@ -17,13 +17,10 @@ export default function Sidebar() {
         </a>
       </div>
       <nav className={sidebar ? "nav-active" : "nav"}>
-        <ul className="side-items">
+        <ul className="side-items" onClick={sidebarOn}>
           <li className="side-toggle">
             <a href="#" className="menu">
-              <GiCrossedAirFlows
-                style={{ color: "pink" }}
-                onClick={sidebarOn}
-              />
+              <GiCrossedAirFlows style={{ color: "pink" }} />
             </a>
           </li>
           {SidebarData.map((element, index) => {

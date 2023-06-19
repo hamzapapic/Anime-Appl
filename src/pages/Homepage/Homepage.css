@@ -1,0 +1,38 @@
+.home {
+  height: 100vh;
+  width: 82%;
+  margin-left: 9%;
+  margin-top: 100px;
+  background-color: beige;
+}
+.p30 {
+  padding: 30px;
+}
+.searchcontainer {
+  margin-top: 30px;
+  width: 70%;
+  height: 50px;
+  /* background-color: black; */
+  display: flex;
+  justify-content: space-between;
+}
+.homesearch {
+  width: 87%;
+  height: 50px;
+  border-radius: 25px;
+  border: rgb(56, 56, 241) 0.5px solid;
+  outline: none;
+  font-size: 25px;
+  padding-left: 15px;
+}
+.searchbtn {
+  height: 50px;
+  width: 50px;
+  /* position: absolute; */
+  border-radius: 50%;
+  border: none;
+  background-color: green;
+}
+.searchbtn:hover {
+  cursor: pointer;
+}
