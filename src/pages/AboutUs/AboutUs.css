@@ -5,7 +5,5 @@
     justify-content: center;
     grid-auto-rows: minmax(420px, auto);
     grid-gap: 40px;
-    background-color: rgba(0, 0, 0, 0.803);
-    color: white;
-    height: 100vh;
+    background-color: #333333;
 }
