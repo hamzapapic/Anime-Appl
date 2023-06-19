@@ -1,15 +1,14 @@
 .kartica{
-    margin-top: 50px;
+    margin-top: 80px;
     width: 330px;
-    height: 420px;
-    /* margin-left: 50px; */
+    height: 410px;
     border-radius: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
     transition: transform 0.3 ease-in-out;
-    box-shadow: 2px 2px 6px rgba(255, 38, 168, 0.200),  -2px -2px 6px rgba(255, 38, 168, 0.200);
+    box-shadow: 2px 2px 6px #ff26a833,  -2px -2px 6px #ff26a833;
 }
 
 .kartica:hover{
@@ -43,7 +42,7 @@ h3{
 
 .secondpart{
     margin-top: 25px;
-    border-top: 2px solid #ff4a8c51;
+    border-top: 2px solid #fe35ae27;
     padding: 15px;
     display: flex;
     justify-content: center;

@@ -1,6 +1,7 @@
 import React from "react";
 import "./UsCard.css";
 // import GitHubIcon from '@mui/icons-material/GitHub';
+import { FaGithub } from "react-icons/fa";
 
 
 export default function PersonCard(props){
@@ -13,11 +14,13 @@ export default function PersonCard(props){
                 </div>
                 <div className="secondpart">
                     <p>{props.description}</p>
-                    <a href={props.goToRep}  target="blank"  style={{color:"#FB2576"}}  className="github">
-                        {/* <GitHubIcon fontSize="large"  */}
-                        {/* // style={{ width: "100%", height: "100%" }}  */}
-                        {/* /> */}
+                    <a href={props.goToRep}  target="blank"  style={{color:"#ff26a8b8"}}  className="github">
+                        {/* <GitHubIcon fontSize="large"  
+                        style={{ width: "100%", height: "100%" }} 
+                        /> */}
+                        <FaGithub style={{ width: "60px", height: "60px" }} />
                     </a>
+                    
                 </div>
             </div>    
     )

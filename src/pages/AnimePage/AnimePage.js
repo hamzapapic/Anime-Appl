@@ -17,15 +17,17 @@ export default function AnimePage() {
         {data.map((anime) => {
           const language = Object.keys(anime.attributes.titles)[0];
           return (
+            <a href={"anime/" + anime.id.toString()}>
             <AnimeCard
               title={anime.attributes.titles[language]}
               thumb={anime.attributes.posterImage.small}
               avgrating={anime.attributes.averageRating}
             />
-            //
+            </a>
           );
         })}
       </div>
     </>
   );
 }
+
