@@ -18,6 +18,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Homepage></Homepage>}></Route>
         <Route path="/animepage" element={<AnimePage></AnimePage>}></Route>
+        <Route path="/aboutus" element={<AboutUs></AboutUs>}></Route>
       </Routes>
       <Footer />
     </div>

@@ -1,5 +1,6 @@
 .kartica{
-    margin-top: 80px;
+    margin-top: 42px;
+    margin-bottom: 42px;
     width: 330px;
     height: 410px;
     border-radius: 20px;
@@ -28,7 +29,7 @@ p{
     text-align: center;
 }
 h3{
-    color: #ffffff66;
+    color: #181818bd;
 }
 
 
