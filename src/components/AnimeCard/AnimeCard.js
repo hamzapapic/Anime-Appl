@@ -4,8 +4,8 @@ import "./AnimeCard.css";
 export default function AnimeCard({ title, thumb, avgrating }) {
   return (
     <>
-      <div className="card">
-        <img src={thumb} />
+      <div className="anime-card">
+        <img className="imganime" src={thumb} alt="" />
         <h2 style={{ color: "white" }}>{title}</h2>
         <p style={{ color: "white" }}>{avgrating}</p>
       </div>

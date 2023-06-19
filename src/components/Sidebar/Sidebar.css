@@ -14,13 +14,13 @@
 .menu a {
 }
 .nav {
-  background-color: #333333;
-  margin-top: 4.5rem;
+  background-color: #ff616192;
+  margin-top: 10vh;
   width: 250px;
-  height: 100vh;
+  height: 40vh;
   display: flex;
   justify-content: center;
-  position: fixed;
+  position: absolute;
   top: 0;
   /* left: -100%; */
   transition: 0.3s;

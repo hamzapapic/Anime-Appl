@@ -1,9 +1,14 @@
+.HomePage {
+  background-image: url(https://myanimelist.tech/images/all-anime-characters-img.webp);
+  background-position: 0 0px;
+  background-size: contain;
+}
 .home {
   height: 100vh;
   width: 82%;
   margin-left: 9%;
-  margin-top: 100px;
-  background-color: beige;
+  /* margin-top: 100px; */
+  /* background-color: beige; */
 }
 .p30 {
   padding: 30px;
@@ -31,8 +36,9 @@
   /* position: absolute; */
   border-radius: 50%;
   border: none;
-  background-color: green;
+  background-color: black;
 }
 .searchbtn:hover {
   cursor: pointer;
 }
+/* nece komit gg. */
