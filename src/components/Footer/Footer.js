@@ -59,11 +59,13 @@ function Footer() {
             }}
           />
         </div>
-        <p>©Jojo.TV. All rights reserved.</p>
-        <p>
-          ©Jojo.TV does not store any files on our server,we only linked to the
-          media which is hosted on 3rd party.
-        </p>
+        <div className="footer-info">
+          <p>©Jojo.TV. All rights reserved.</p>
+          <p>
+            ©Jojo.TV does not store any files on our server,we only linked to
+            the media which is hosted on 3rd party.
+          </p>
+        </div>
       </div>
     </footer>
   );
