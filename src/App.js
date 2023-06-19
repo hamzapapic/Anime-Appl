@@ -14,15 +14,10 @@ function App() {
   return (
     <div className="App">
       <Navbar />
-      {/* <div className="sidebar">
-        <Sidebar />
-      </div> */}
-<AnimePage></AnimePage>
+      <div className="sidebar">{/* <Sidebar /> */}</div>
       <Routes>
         <Route path="/" element={<Homepage></Homepage>}></Route>
-        <Route path="/home" element={<AnimePage></AnimePage>}></Route>
-        <Route path="/anime/:id" element={<OneAnime></OneAnime>}></Route>
-        <Route path="/about-us" element={<AboutUs></AboutUs>}></Route>
+        <Route path="/animepage" element={<AnimePage></AnimePage>}></Route>
       </Routes>
       <Footer />
     </div>
