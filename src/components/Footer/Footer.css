@@ -26,7 +26,7 @@
   src: url(../../../public/fonts/DeliciousHandrawn-Regular.ttf);
 }
 .text {
-  width: 48%;
+  width: 96%;
   margin-left: 2rem;
   margin-top: 1rem;
   color: gray;
@@ -35,4 +35,9 @@
 .icons {
   margin-bottom: 2rem;
   border-bottom: 1px solid gainsboro;
+}
+
+.footer-info {
+  text-align: center;
+  width: 90vw;
 }
