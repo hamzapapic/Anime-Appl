@@ -1,7 +1,8 @@
 .HomePage {
-  background-image: url(https://myanimelist.tech/images/all-anime-characters-img.webp);
-  background-position: 0 0px;
-  background-size: contain;
+  background-image: url(../../assets/452-4526014_part-4-png-jojos-bizarre-adventure-stone-ocean-removebg-preview.png);
+  background-position: 700px 0px;
+  background-size: 50%;
+  background-repeat: no-repeat;
 }
 .home {
   height: 100vh;
@@ -15,14 +16,15 @@
 }
 .searchcontainer {
   margin-top: 30px;
-  width: 70%;
+  width: 50%;
   height: 50px;
   /* background-color: black; */
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between; */
+  position: relative;
 }
 .homesearch {
-  width: 87%;
+  width: 100%;
   height: 50px;
   border-radius: 25px;
   border: rgb(56, 56, 241) 0.5px solid;
@@ -31,14 +33,27 @@
   padding-left: 15px;
 }
 .searchbtn {
-  height: 50px;
-  width: 50px;
+  position: absolute;
+  right: 5px;
+  top: 5px;
+  color: white;
+  height: 40px;
+  width: 40px;
   /* position: absolute; */
   border-radius: 50%;
   border: none;
-  background-color: black;
+  background-color: #333333;
 }
 .searchbtn:hover {
   cursor: pointer;
 }
 /* nece komit gg. */
+.desc {
+  margin: auto;
+  width: 80%;
+  color: white;
+}
+.desc p {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
