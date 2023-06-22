@@ -14,10 +14,10 @@
 .menu a {
 }
 .nav {
-  background-color: #ff616192;
+  background-color: #27272792;
   margin-top: 10vh;
   width: 250px;
-  height: 40vh;
+  height: 45vh;
   display: flex;
   justify-content: center;
   position: absolute;
@@ -65,7 +65,6 @@
   justify-content: start;
   align-items: center;
 }
-
 .nab span {
   display: none;
 }

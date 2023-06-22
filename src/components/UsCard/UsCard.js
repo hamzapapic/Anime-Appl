@@ -4,7 +4,7 @@ import "./UsCard.css";
 import { FaGithub } from "react-icons/fa";
 
 
-export default function PersonCard(props){
+export default function UsCard(props){
     return(
             <div className="kartica">
                 <div className="firstpart">
@@ -14,10 +14,7 @@ export default function PersonCard(props){
                 </div>
                 <div className="secondpart">
                     <p>{props.description}</p>
-                    <a href={props.goToRep}  target="blank"  style={{color:"#ff26a8b8"}}  className="github">
-                        {/* <GitHubIcon fontSize="large"  
-                        style={{ width: "100%", height: "100%" }} 
-                        /> */}
+                    <a  target="blank"  style={{color:"#ff26a8b8"}}  className="github" href={props.goToRep}>
                         <FaGithub style={{ width: "60px", height: "60px" }} />
                     </a>
                     

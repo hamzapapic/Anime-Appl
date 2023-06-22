@@ -18,7 +18,9 @@ function App() {
       <Routes>
         <Route path="/" element={<Homepage></Homepage>}></Route>
         <Route path="/animepage" element={<AnimePage></AnimePage>}></Route>
+        <Route path="/anime/:id" element={<OneAnime></OneAnime>}></Route>
         <Route path="/aboutus" element={<AboutUs></AboutUs>}></Route>
+        <Route path="/favorites" element={<Favorites></Favorites>}></Route>
       </Routes>
       <Footer />
     </div>

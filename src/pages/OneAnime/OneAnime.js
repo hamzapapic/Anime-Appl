@@ -4,7 +4,7 @@ import AnimeCard from "../../components/AnimeCard/AnimeCard";
 import GetAnime from "../../source/api";
 
 
-export default function OneAnime() {
+export default function OneAnime({addToFav}) {
     const { id } = useParams();
     console.log(typeof id);
     console.log(GetAnime);
@@ -27,10 +27,10 @@ export default function OneAnime() {
             <h1 style={{ color: "white" }}>{selected.title}</h1>
             <p className="infoP">{selected.attributes.description}</p>
             <div style={{width:"auto", backgroundColor:"#36d425",display:"inline-block"}}>{selected.episodeCount}ep</div>
-            <div style={{width:"auto",backgroundColor:"#256ed4",display:"inline-block"}}>{selected.showType}</div>
+            <div style={{padding:"5px", backgroundColor:"#256ed4",display:"inline-block"}}>{selected.showType}</div>
             <div style={{width:"auto",backgroundColor:"#d1d425",display:"inline-block"}}>{selected.ageRating}</div>
 
-            <button>add to favorites</button>
+            <button className="fav-btn" onClick={addToFav}>add to favorites</button>
         </div>
     </div>
     );
