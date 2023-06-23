@@ -8,7 +8,7 @@ import { SidebarData } from "./SidebarData";
 export default function Sidebar() {
   const [sidebar, setSidebar] = useState(false);
   const sidebarOn = () => setSidebar(!sidebar);
-  console.log(sidebar);
+  // console.log(sidebar);x
   return (
     <>
       <div className="sidebar">
