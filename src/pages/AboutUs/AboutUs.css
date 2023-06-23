@@ -1,9 +1,13 @@
 .about-us-container {
-    margin-left: "";
-    display: grid;
-    grid-template-columns: repeat(4, 330px);
-    justify-content: center;
-    grid-auto-rows: minmax(420px, auto);
-    grid-gap: 40px;
-    background-color: #333333;
+  margin-left: "";
+  display: grid;
+  grid-template-columns: repeat(4, 330px);
+  justify-content: center;
+  grid-auto-rows: minmax(420px, auto);
+  grid-gap: 30px;
+  overflow: hidden;
+  background-color: #333333;
+}
+::-webkit-scrollbar {
+  display: none;
 }
